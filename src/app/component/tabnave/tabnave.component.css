@@ -1,0 +1,45 @@
+.tab_box {
+  z-index: 999;
+  width: 100%;
+  position: absolute;
+}
+.tab_main {
+  width: 90%;
+  transform: translate(5%);
+  height: 93px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: -2px;
+  left: 46px;
+}
+.tab_main .tab_nave {
+  width: 60%;
+}
+.tab_main .tab_nave nav {
+  color: #efefef;
+  display: flex;
+  line-height: 93px;
+}
+.tab_main .tab_nave nav li {
+  padding: 0 30px;
+}
+.tab_main .tab_nave nav li .underline {
+  background-color: #efefef;
+}
+.tab_main .phones {
+  text-align: right;
+  height: 93px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+.tab_main .phones .phones_im img {
+  width: 40px;
+}
+.tab_main .phones .hoeng_number span {
+  margin: 0px 5px;
+  font-size: 20px;
+  color: #fff;
+  font-size: 500;
+}

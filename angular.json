@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Bagen"
+    }
+  },
+  "defaultProject": "Bagen",
+  "cli": {
+    "analytics": "d50812a9-2201-4104-a399-ef06f84cdc63"
+  }
 }

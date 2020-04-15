@@ -1,0 +1,61 @@
+@tabhehti:93px;
+.tab_box{
+    z-index: 999;
+    width: 100%;
+    position: absolute;
+}
+.tab_main{
+   
+    width: 90%;
+    transform: translate(5%);
+    height: @tabhehti;
+    display: flex;
+    align-items:center;
+    position: relative;
+    bottom: -2px;
+    left: 46px; 
+    .tab_nave {
+        width: 60%;
+    }
+    .tab_nave nav{
+        color: #efefef;;
+        display: flex;
+        line-height: @tabhehti;
+       
+        li{
+            padding: 0 30px;
+            .underline{
+                  background-color: #efefef; 
+            }
+        } 
+    }
+    .phones{
+        text-align: right;
+        height: @tabhehti;
+        display: flex;
+        align-items:center;
+    
+        width: 200px;
+        .phones_im{
+            
+            img{
+                width: 40px;
+             }
+        }
+        .hoeng_number{
+          
+            .setspn(@fonsize){
+                font-size:@fonsize;
+                color: #fff;
+                font-size: 500;
+            }
+            span{
+                margin: 0px 5px;
+                .setspn(20px)
+            }
+           
+        }
+
+    }
+
+}
