@@ -1,0 +1,42 @@
+.box_icons {
+  width: 100%;
+  z-index: 22;
+  background-color: #555555;
+}
+.box_icons .tab_img {
+  width: 80%;
+  transform: translate(10%);
+  padding: 50px 30px;
+}
+.box_icons ul {
+  display: flex;
+  justify-content: space-between;
+}
+.box_icons ul li {
+  width: 22%;
+  color: #A9A9A9;
+  text-align: center;
+  margin: auto;
+}
+.box_icons ul li p {
+  width: 80%;
+  transform: translate(10%);
+  font-size: 13px;
+}
+.box_icons ul li:nth-child(1) .imgaes {
+  background: url(../../../assets/images/tab01.webp) no-repeat;
+}
+.box_icons ul li:nth-child(2) .imgaes {
+  background: url(../../../assets/images/tab02.webp) no-repeat;
+}
+.box_icons ul li:nth-child(3) .imgaes {
+  background: url(../../../assets/images/tab03.webp) no-repeat;
+}
+.box_icons ul li:nth-child(4) .imgaes {
+  background: url(../../../assets/images/tab04.webp) no-repeat;
+}
+.box_icons ul .imgaes {
+  width: 40%;
+  height: 100px;
+  margin: auto;
+}

@@ -1,0 +1,56 @@
+.conters {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.conters .left,
+.conters .right {
+  width: 48%;
+}
+.conters .right .imahse {
+  width: 36%;
+  margin: 20px 0px;
+}
+.conters .right .imahse img {
+  width: 100%;
+}
+.conters .right ul li span {
+  font-size: 14px;
+  color: #696969;
+  font-family: 微软雅黑;
+  letter-spacing: 1px;
+  line-height: 31px;
+  margin: 0 4px;
+}
+.conters .right .formdats input,
+.conters .right textarea {
+  width: 90%;
+  margin: 10px 0;
+  background-color: #fcfcfc;
+  border: 1px solid #a1a1a1;
+  height: 40px;
+  font-size: 14px;
+  padding: 0 5px;
+}
+.conters .right .formdats textarea {
+  width: 90%;
+  margin: 10px 0;
+  background-color: #fcfcfc;
+  border: 1px solid #a1a1a1;
+  height: 60px;
+  font-size: 14px;
+  padding: 0 5px;
+  max-width: 90%;
+  max-height: 120px;
+}
+.conters .right .formdats button {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 10px 40px;
+  border: 0;
+  background-color: #363636;
+}

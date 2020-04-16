@@ -13,19 +13,39 @@
   bottom: -2px;
   left: 46px;
 }
+.tab_main .logo_img {
+  height: 40%;
+}
+.tab_main .logo_img img {
+  height: 100%;
+}
 .tab_main .tab_nave {
   width: 60%;
+  position: relative;
+  left: 46px;
 }
 .tab_main .tab_nave nav {
   color: #efefef;
   display: flex;
-  line-height: 93px;
+  line-height: 43px;
 }
 .tab_main .tab_nave nav li {
+  color: #efefef;
+  cursor: pointer;
   padding: 0 30px;
 }
 .tab_main .tab_nave nav li .underline {
   background-color: #efefef;
+}
+.tab_main .tab_nave nav li p {
+  transition: all 300ms;
+  height: 1px;
+  width: 0%;
+  background-color: aliceblue;
+  margin: auto;
+}
+.tab_main .tab_nave nav li:hover p {
+  width: 100%;
 }
 .tab_main .phones {
   text-align: right;

@@ -1,0 +1,58 @@
+.setbox_advantage(@swidth,@colors){
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    top: 50px;
+    justify-content: space-between;
+    width:@swidth;
+   
+    background-color: @colors;
+   }
+.servace{
+    width: 100%;
+    margin:  0px 0px 100px 0px;
+   .serve_conters{
+    transform: translate(35%);
+    .setbox_advantage(60%,#fff);   
+    flex-wrap: wrap;
+       li{
+            margin-top: 40px; 
+            width: 33%;
+         
+         display: flex;
+        
+          .lef_icons{
+            flex-shrink:0;
+            text-align: center;
+            line-height: 50px;
+            font-size: 25px;
+            color: #fff;
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            background-color: #36d3db;
+
+          } 
+          .conters{
+             // width: 60%;
+            margin:0px 10px;
+            p:nth-child(1){
+                font-family:微软雅黑;
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing:2px ;
+                color: rgb(73, 73, 73);
+            }
+            p:nth-child(2){
+                margin-top: 10px;
+                color:#808080;
+                width: 80%;
+                font-size: 13px;
+                font-family: 微软雅黑;
+                line-height: 22px;
+                letter-spacing: 1.5px;
+            }
+          }
+       }
+   }
+}

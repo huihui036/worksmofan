@@ -1,0 +1,46 @@
+@fontcolor:#A9A9A9;
+.box_icons{
+    // position: absolute;
+    // bottom: 0;
+    width: 100%;
+    z-index: 22;
+    background-color: #555555;
+    .tab_img{
+        width: 80%;
+        transform: translate(10%);
+        padding: 50px 30px;
+       
+    }
+    ul{
+        li{
+            width: 22%;
+           color: @fontcolor;
+            text-align: center;
+            margin:auto;
+            p{
+                width: 80%;
+                transform: translate(10%);
+                font-size: 13px;
+            }
+        }
+        li:nth-child(1) .imgaes{
+            background: url(../../../assets/images/tab01.webp) no-repeat;
+        }
+        li:nth-child(2) .imgaes{
+            background: url(../../../assets/images/tab02.webp) no-repeat;
+        }
+        li:nth-child(3) .imgaes{
+            background: url(../../../assets/images/tab03.webp) no-repeat;
+        }
+        li:nth-child(4) .imgaes{
+            background: url(../../../assets/images/tab04.webp) no-repeat;
+        }
+        .imgaes{
+            width: 40%;
+            height: 100px;
+            margin: auto;
+        }
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,64 @@
+.baoust_body {
+  width: 60%;
+  margin: AUTO;
+  PADDING: 40px 0;
+}
+.baoust_body .title {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.baoust_body .title p {
+  font-family: 微软雅黑;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.baoust_body .title .contus {
+  border: 1px solid #0daeb8;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-family: 微软雅黑;
+  border-color: #0daeb8;
+  background-color: transparent;
+  color: #0daeb8;
+}
+.baoust_body .lisnes {
+  margin-top: 10px;
+  margin-bottom: 0;
+  border-radius: 0px;
+  border-top: 0px solid #ffffff;
+  border-bottom: 2px solid #e8e8e8;
+  border-left: 0px solid #ffffff;
+  border-right: 0px solid #ffffff;
+  color: #000000;
+}
+.baoust_body .conters {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.baoust_body .conters .left,
+.baoust_body .conters .right {
+  width: 46%;
+}
+.baoust_body .conters .left p {
+  width: 90%;
+  margin: 20px 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #696969;
+  line-height: 2;
+}
+.baoust_body .conters .right .imagse img {
+  width: 80%;
+}
+.baoust_body .conters .right p {
+  margin: 20px 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #696969;
+  line-height: 2;
+}

@@ -1,0 +1,29 @@
+.porje_title {
+  position: relative;
+  top: 50px;
+  z-index: 23;
+}
+.projec_conters {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.conters_imgs {
+  margin: auto;
+  position: relative;
+  top: -100px;
+}
+.baimages {
+  position: relative;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  height: 600px;
+  background: url('../../../assets/images/projecbg.webp');
+}
+.baimages img {
+  margin: auto;
+  position: relative;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%);
+}

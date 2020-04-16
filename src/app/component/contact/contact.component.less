@@ -1,0 +1,58 @@
+.conters{
+   
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    .left,.right{
+        width:48%
+    }
+    .right{
+        .imahse{
+            width: 36%;
+            margin: 20px 0px;
+            img{
+                width: 100%;
+            }
+        }
+        ul li{
+           
+        }
+        ul li span{
+            font-size: 14px;
+            color: #696969;
+            font-family: 微软雅黑;
+            letter-spacing: 1px;
+            line-height: 31px;
+            margin: 0 4px;
+        }
+        .setforms(@inpheight:40px){
+            width: 90%;
+            margin: 10px 0;
+            background-color: rgb(252, 252, 252);
+            border: 1px solid rgb(161, 161, 161);
+            height: @inpheight;
+            font-size: 14px;
+            padding: 0 5px;
+        }
+        .formdats input,textarea{
+            .setforms
+        }
+        .formdats textarea{
+            .setforms(60px);
+            max-width: 90%;
+            max-height: 120px;
+        }
+        .formdats button{
+            color: #ffffff;
+            font-size: 16px;
+            line-height:16px;
+            
+            padding: 10px 40px;
+            border: 0;
+            background-color: #363636;
+        }
+    }
+}

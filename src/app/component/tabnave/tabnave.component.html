@@ -5,28 +5,11 @@
         </div>
         <div class="tab_nave">
             <nav>
-                <li>
-                    <span> 首页</span>
-                  
-
+                <li *ngFor="let item of listdata"  (click)="changepage(item.paht)">
+                    <span> {{item.title}}</span>
+                    <p ></p>
                 </li>
-                <li> 
-                    <span>产品自选</span>
-                   
-
-                </li>
-                <li> 
-                    <span>产品自选</span>
-                
-                </li>
-                <li> 
-                    <span>产品自选</span>
-                 
-                </li>
-                <li>
-                    <span>产品自选</span>
-                   
-                    </li>
+               
             </nav>
 
         </div>
