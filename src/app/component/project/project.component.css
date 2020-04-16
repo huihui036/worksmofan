@@ -55,10 +55,11 @@
   }
 }
 .mytwelve .conters .venenri {
-  margin-left: 120px;
+  margin: 0 120px;
 }
 .mytwelve .conters .venenrier {
-  margin-right: 100px;
+  position: relative;
+  right: 200px;
 }
 .mytwelve .conters .rigthbox {
   height: 100%;
@@ -158,10 +159,11 @@
   }
 }
 .mytwelve:nth-child(even) .conters .venenri {
-  margin-left: 120px;
+  margin: 0 120px;
 }
 .mytwelve:nth-child(even) .conters .venenrier {
-  margin-right: 100px;
+  position: relative;
+  right: 200px;
 }
 .mytwelve:nth-child(even) .conters .rigthbox {
   height: 100%;
