@@ -7,7 +7,7 @@
             <nav>
                 <li *ngFor="let item of listdata"  (click)="changepage(item.paht)">
                     <span> {{item.title}}</span>
-                    <p ></p>
+                    <p  [class.activesla]="selectedname ==item.paht"></p>
                 </li>
                
             </nav>

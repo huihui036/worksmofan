@@ -13,6 +13,20 @@
     z-index: 22;
    
 }
+@keyframes nanimt {
+    0% {
+      
+     
+        opacity: 0;
+     
+    }
+    100% {
+  
+
+        opacity: 1;
+     
+    }
+}
 .iagesbox{
     position: absolute;
     top: 0;
@@ -29,7 +43,8 @@
 
     text-align: center;
     z-index: 999;
-
+    animation: nanimt 2s;
+    
     .setext(@fonsize){
         font-size:@fonsize;
         color: #fff;
@@ -99,14 +114,18 @@
             }
             .icons{
                 line-height: 100px;
-            color: #fff;
-            font-size: 26px;
+                 color: #fff;
+                font-size: 26px;
                 width:100px;
                 height: 100px;
                 margin:   auto;
                 border-radius: 50px;
-                border:2px solid #fff
+                border:2px solid #fff;
+                animation: nanimt 2s
+                
             }
+       
+
             .lines{
                 overflow:hidden;
                 margin: 50px auto;

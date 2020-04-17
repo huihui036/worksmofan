@@ -37,6 +37,11 @@
 .tab_main .tab_nave nav li .underline {
   background-color: #efefef;
 }
+.tab_main .tab_nave nav li .activesla {
+  height: 1px;
+  width: 100%;
+  background-color: aliceblue;
+}
 .tab_main .tab_nave nav li p {
   transition: all 300ms;
   height: 1px;

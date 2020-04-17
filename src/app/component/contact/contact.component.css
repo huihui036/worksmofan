@@ -1,3 +1,4 @@
+@fontcolor = '#696969';
 .conters {
   width: 70%;
   height: 400px;
@@ -25,12 +26,16 @@
   line-height: 31px;
   margin: 0 4px;
 }
+.conters .right .adnv {
+  color: #000;
+}
 .conters .right .formdats input,
 .conters .right textarea {
   width: 90%;
   margin: 10px 0;
   background-color: #fcfcfc;
   border: 1px solid #a1a1a1;
+  outline: 0px solid #a1a1a1;
   height: 40px;
   font-size: 14px;
   padding: 0 5px;
@@ -40,6 +45,7 @@
   margin: 10px 0;
   background-color: #fcfcfc;
   border: 1px solid #a1a1a1;
+  outline: 0px solid #a1a1a1;
   height: 60px;
   font-size: 14px;
   padding: 0 5px;

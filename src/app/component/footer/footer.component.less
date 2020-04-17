@@ -2,7 +2,7 @@
   
     color: #ffffff;
     width: 100%;
-    height: 300px;
+    
     background: #2c2c2c none repeat 
  
 }
@@ -18,20 +18,22 @@
    
    }
 .conters_foote{
-    width: 80%;
+    width: 60%;
+    margin: auto;
     padding: 50px;
-    transform: translate(10%);
+  
     ul{ 
+      
        
         margin: auto;
         display: flex;
         margin-bottom: 20px;
-        height: 80%;
+        height: 100%;
         justify-content: space-between;
         li{
             padding: 20px 20px;
             height: 80%;
-            width: 60%;
+            width: 80%;
             padding: 10px 0;
             .title{
                 vertical-align: top;
@@ -50,12 +52,23 @@
                 padding-right: 5px;
                 text-align: left;
             }
-           
+           .core_iameg{
+            margin: 0px 50px;
+            p{
+                vertical-align: top;
+                font-size: 16px;
+                color: #8d9095;
+                padding-right: 5px;
+                text-align: left;
+                margin: 5px 0;
+            }
+           }
         }
-        &:nth-child(1) li .imgse{
-            width: 60px;
-            height: 60px;
-            background: url('../../../assets/images/scorc.webp');
+      
+        &:nth-child(1) li .core_iameg .imgse{
+         
+            height: 110px;
+            background: url('../../../assets/images/scorc.webp') no-repeat;
         }
     }
     

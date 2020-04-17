@@ -35,13 +35,16 @@
         </div>
 
         <div class="letfbox venenrier">
-            <div class="btn"></div>
+            <div class="btn" id="next" (click)='nextchang()'></div>
             <div class="leftcontrs">
-               <img src="../../../assets/images/waper01.webp">
-               <img src="../../../assets/images/waper02.webp">
-               <img src="../../../assets/images/waper03.webp">
+                <ul style="position: relative;"> 
+                     <img class="names" src="../../../assets/images/waper01.webp">
+                    <img src="../../../assets/images/waper02.webp">
+                    <img src="../../../assets/images/waper03.webp">
+                </ul>
+             
             </div>
-            <div class="btn"></div>
+            <div class="btn" (click)='printchang()'></div>
         </div>
     </div>
  
