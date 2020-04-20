@@ -1,21 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery'
-
 @Component({
-  selector: 'app-project',
-  templateUrl: './project.component.html',
-  styleUrls: ['./project.component.less']
+  selector: 'app-rotation',
+  templateUrl: './rotation.component.html',
+  styleUrls: ['./rotation.component.less']
 })
-export class ProjectComponent implements OnInit {
-
-  constructor() { }
+export class RotationComponent implements OnInit {
   public animate:number=-410
   public conts = 0;
   public le = 0;
+  constructor() { }
+
   ngOnInit(): void {
   }
-
-
   nextchang(){
     if(this.conts ==0){
       $('.leftcontrs ul').css({
@@ -70,9 +67,5 @@ export class ProjectComponent implements OnInit {
 
 
   }
- 
-  
-
-  
 
 }

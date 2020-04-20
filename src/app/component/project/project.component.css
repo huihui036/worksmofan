@@ -42,6 +42,7 @@
   width: 300px;
   height: 100%;
   display: flex;
+  transition: all 1.5s;
 }
 .mytwelve .conters .letfbox .leftcontrs ul img {
   width: 100%;
@@ -151,6 +152,7 @@
   width: 300px;
   height: 100%;
   display: flex;
+  transition: all 1.5s;
 }
 .mytwelve:nth-child(even) .conters .letfbox .leftcontrs ul img {
   width: 100%;
