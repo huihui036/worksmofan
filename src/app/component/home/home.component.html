@@ -4,18 +4,21 @@
         </div>
         <div class="iagesbox">
         </div>
-        <div class="contrsr"> 
+        <div class="contrsr">
             <div class="chines text">我们无法做到完美， 但追求完美能让人卓越</div>
-        <div class="english text">Perfection’snot attainable, but if we chase it we can catch excellence.</div>
-        </div> 
-        <div style="position: relative; z-index: 23;" >
-             
-           <app-container style="width: 100%;position: absolute;bottom: 0;"></app-container>
-         
+            <div class="english text">Perfection’snot attainable, but if we chase it we can catch excellence.</div>
         </div>
-   
+
+        <!-- 首页主图下方的四个说明 开始-->
+        <div style="position: relative; z-index: 23;">
+
+            <app-container style="width: 100%;position: absolute;bottom: 0;"></app-container>
+
+        </div>
+        <!-- 首页主图下方的四个说明 结束-->
 
     </div>
+    <!-- 优势 开始---->
     <div class="ontent-wrapper_one">
         <div class="box_one">
             <div class="bit_esdhu">
@@ -27,24 +30,18 @@
             </div>
         </div>
         <div class="box_advantage">
-            <div class="advantage">
-                <div class="icons iconfont icon-ico_print"></div>
+            <div class="advantage" *ngFor="let item of ['icon-xinhao','icon-diannao','icon-diannao'] let _i = index">
+                <div class="icons iconfont " [ngClass]="[item]"></div>
                 <div class="lines"></div>
                 <div class="test">自主建设</div>
             </div>
-            <div class="advantage">
-                <div class="icons iconfont icon-xinhao"></div>
-                <div class="lines"></div>
-                <div class="test">自主建设</div>
-            </div>
-            <div class="advantage">
-                <div class="icons iconfont icon-diannao" ></div>
-                <div class="lines"></div>
-                <div class="test">自主建设</div>
-            </div>
+
         </div>
 
     </div>
+    <!-- 优势 结束--->
+
+    <!-- 产品-功能 begin---->
     <div class="ontent-wrapper_two ">
         <div class="box_one">
             <div class="bit_esdhu">
@@ -59,71 +56,30 @@
             </div>
         </div>
         <div class="box_advantage">
-            <div class="advantage">
-                <div class="icons iconfont icon-dizhi "></div>
-              
+            <div class="advantage"
+                *ngFor="let item of ['icon-dizhi','icon-shipin','icon-shouji2','icon-tupian1','icon-icon-','icon-cart_icon']">
+                <div class="icons iconfont " [ngClass]="[item]"></div>
                 <div class="test">自主建设</div>
                 <div class="listconter">
                     <p>随心所欲的改</p>
-                    <p>>变内容的位置</p>
-                </div>
-            </div>
-            <div class="advantage">
-                <div class="icons iconfont icon-shipin"></div>
-              
-                <div class="test">自主建设</div>
-                <div class="listconter">
-                    <p> 随心所欲的改</p>
                     <p>变内容的位置</p>
                 </div>
             </div>
-            <div class="advantage">
-                <div class="icons iconfont icon-shouji2"></div>
-          
-                <div class="test">自主建设</div>
-                <div class="listconter">
-                    <p> 随心所欲的改</p>
-                    <p>变内容的位置</p></div>
-            </div>
-            <div class="advantage">
-                <div class="icons iconfont icon-tupian1"></div>
-              
-                <div class="test">自主建设</div>
-                <div class="listconter">
-                    <p> 随心所欲的改</p>
-                    <p>变内容的位置</p>
-                </div>
-            </div>
-            <div class="advantage">
-                <div class="icons iconfont icon-icon-"></div>
-              
-                <div class="test">自主建设</div>
-                <div class="listconter">
-                    <p> 随心所欲的改</p>
-                    <p>变内容的位置</p>
-                </div>
-            </div>
-            <div class="advantage">
-                <div class="icons iconfont icon-cart_icon"></div>
-          
-                <div class="test">自主建设</div>
-                <div class="listconter">
-                    <p> 随心所欲的改</p>
-                    <p>变内容的位置</p>
-                </div>
-            </div>
+
         </div>
-    <div class="butns">
-        体验产品
+        <div class="butns">
+            体验产品
+        </div>
     </div>
-    </div>
+    <!-- 产品-功能-end--->
 
-<app-project></app-project>
+    <!-- 产品-说明--轮播-->
+    <app-project></app-project>
 
+    <!-- 产品-服务列表 -->
+    <app-server></app-server>
 
-  
-<app-server></app-server>
-
+    <!-- 产品功能 -->
     <div class="function">
         <div class="box_one">
             <div class="bit_esdhu">
@@ -131,50 +87,30 @@
                 </div>
                 <div class="line-abs"></div>
                 <div class="qfe_wrapper">
-                    <p style="text-align: center;"><span style="color:#666666;">您可以双击这里或者点击编辑按钮来修改内容，您还可以添加图标按钮图片等常用元素</span></p>
+                    <p style="text-align: center;"><span
+                            style="color:#666666;">您可以双击这里或者点击编辑按钮来修改内容，您还可以添加图标按钮图片等常用元素</span></p>
                 </div>
             </div>
         </div>
         <div class="box_advantage">
-            <div class="advantage">
+            <div class="advantage" *ngFor="let item of [1,2,3,4]">
                 <div class="icons"></div>
                 <div class="test">更新日志查询列表</div>
-              <div class="animat-imges"></div>
-            </div>
-            <div class="advantage">
-                <div class="icons"></div>
-              
-                <div class="test">更新日志查询列表</div>
                 <div class="animat-imges"></div>
-                
             </div>
-            <div class="advantage">
-                <div class="icons"></div>
-          
-                <div class="test">更新日志查询列表</div>
-                <div class="animat-imges"></div>
-               
-            </div>
-            <div class="advantage">
-                <div class="icons">
-                    
-                </div>
-              
-                <div class="test">更新日志查询列表</div>
-                <div class="animat-imges"></div>
-               
-            </div>
-          
+
+
         </div>
         <div class="wrapper">
-            <p style="text-align: center;"><span style="color:#666666;">您可以双击这里或者点击编辑按钮来修改内容，您还可以添加图标按钮图片等常用元素</span></p>
+            <p style="text-align: center;"><span style="color:#666666;">您可以双击这里或者点击编辑按钮来修改内容，您还可以添加图标按钮图片等常用元素</span>
+            </p>
         </div>
         <div class="butns">
             体验产品
         </div>
     </div>
 
-   
 
+    <!-- 底部模块 -->
     <app-footer></app-footer>
 </div>

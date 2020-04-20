@@ -16,7 +16,7 @@ import { SeavepageComponent } from './component/seavepage/seavepage.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { AboutsComponent } from './component/abouts/abouts.component';
 import { InformationComponent } from './component/information/information.component';
-import { RotationComponent } from './component/rotation/rotation.component';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +34,7 @@ import { RotationComponent } from './component/rotation/rotation.component';
     ContactComponent,
     AboutsComponent,
     InformationComponent,
-    RotationComponent
+
   ],
   imports: [
     BrowserModule,
